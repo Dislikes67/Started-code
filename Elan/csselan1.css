@@ -39,5 +39,5 @@ input:not([type="submit"]):focus, textarea:focus{
 }
 input[type="submit"]:active{
       background-color: black; color: white;
-}
+ }
       

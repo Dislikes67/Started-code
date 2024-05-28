@@ -8,17 +8,17 @@
       <body>
             <form action="index.html">
                   <p obligatoire>
-                        <input type="text"           placeholder="Votre nom..." 
+                        <input      type="text"           placeholder="Votre nom..." 
 value="" required/>
                   </p>
                   <p obligatoire>
                         <label for="sexe">
                               Vous êtes :
                         </label><br/>
-                        <input name="sexe" value="H" type="radio" checked 
+                        <input name="sexe"      value="H"        type="radio" checked 
 required/>
                         <span>Homme</span>
-                        <input name="sexe" value="F" type="radio" required/>
+                        <input name="sexe"      value="F"   type="radio"      required/>
                         <span>Femme</span>
                   </p>
                   <p obligatoire>
