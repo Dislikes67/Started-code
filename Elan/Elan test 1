@@ -3,7 +3,7 @@
       <head>
             <meta charset="utf-8"/>
             <title>Mon site - article Lorem Ipsum</title>
-            <link rel="stylesheet" href="style.css" />
+            <link rel="stylesheet" href="csselan1.css" />
       </head>
       <body>
             <form action="index.html">
