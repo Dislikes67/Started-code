@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta charset="utf-8"/>
+            <title>Mon site - article Lorem Ipsum</title>
+            <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+            <form action="index.html">
+                  <p obligatoire>
+                        <input type="text"           placeholder="Votre nom..." 
+value="" required/>
+                  </p>
+                  <p obligatoire>
+                        <label for="sexe">
+                              Vous êtes :
+                        </label><br/>
+                        <input name="sexe" value="H" type="radio" checked 
+required/>
+                        <span>Homme</span>
+                        <input name="sexe" value="F" type="radio" required/>
+                        <span>Femme</span>
+                  </p>
+                  <p obligatoire>
+                        <input type="email" placeholder="Votre e-mail..." 
+required/>
+                  </p>
+                  <p>
+                        <textarea             rows="3"                 placeholder="Votre 
+message..."></textarea>
+                  </p>
+                  <p>
+                        <input type="submit" value="Envoyer"/>
+                  </p>
+            </form>
+      </body>
+</html>

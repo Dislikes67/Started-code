@@ -1,0 +1,43 @@
+*{
+      box-sizing: border-box;
+}
+*::selection{
+      background-color: black; color: white;
+}
+html, body{
+      width: 100%; height: 100%;
+      padding: 0; margin: 0;
+      font-size: 16px;
+}
+form{
+      padding: 1em;
+      width: 300px;
+}
+form>p{
+      margin: 0; padding: 0.5em;
+}
+p:nth-child(2n){
+      background-color: #ddd;
+}
+p[obligatoire]::after{
+      content: "*";
+}
+label:first-child{
+      color: white;
+}
+input[type="text"]:required, input[type="email"]:required{
+      background-color: pink;
+}
+input[type="radio"]:checked+span {
+      color: blue;
+}
+input:not([type="submit"]):focus, textarea:focus{
+      border: 2px dashed green;
+}
+      *::placeholder{
+      font-style: oblique;
+}
+input[type="submit"]:active{
+      background-color: black; color: white;
+}
+      
