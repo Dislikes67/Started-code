@@ -9,13 +9,14 @@
 }
 body{
       width: 80%;
-      background-color: yellow
+      background-color: rgba(255, 255, 0, 0.788)
 }
 header{
+      display: flex;
+      justify-content:center;
       width: 47%;
       padding: 5px;
       background-color:dodgerblue;
-      text-align:center;
       color: white;
       
 }
@@ -30,14 +31,12 @@ footer{
       width: 14%;
       background-color: dodgerblue;
       color: white;
-      justify-content: center;
-
 }
 nav{
-      width: 5%;
+      width: 12%;
       background-color: dodgerblue;
       color: white;
-      align-items: flex-end;
+      align-items: center;
 }
 a:visited{
       color: white;
@@ -50,3 +49,6 @@ a:link{
       height: auto;
       justify-content: center;
 }
+#description{
+      background-color: white;
+
