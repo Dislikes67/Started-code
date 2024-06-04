@@ -5,8 +5,8 @@
 }
 #wrapper{
       width: 100%;
-      height: 47vw;
-      background-color: rgba(255, 255, 0, 0.788);
+      height: 100vh;
+      background-color:#FDD116;
       display:flex;
       flex-direction: column;
       align-items: center;
@@ -16,29 +16,27 @@ header{
       align-items: center;
       flex-direction: column;
       color: white;
-      background-color:dodgerblue;
+      background-color:#4C8DCD;
 }
 main{
       width: 40%;
       height: 100%;
-      padding: 20px;
+      padding: 10px;
       background-color: white;
       display: flex;
-      justify-content: center;
-      
-          
+      justify-content: center;         
 }
 footer{
-      width: 100%;
+      width: 40%;
       padding: 3px;
-      background-color: darkblue;
+      background-color: #29539D;
       color: white;
       display: flex;
       justify-content: center;
       align-items: flex-end;
 }
 #bio{
-      background-color: dodgerblue;
+      background-color: #4C8DCD;
       color: white;
       display: flex;
       flex-direction: column;
@@ -50,7 +48,7 @@ footer{
 nav{
       width: 20%;
       height: 20%;
-      background-color: dodgerblue;
+      background-color: #4C8DCD;
       color: white;
       display:flex;
       justify-content: center;
@@ -73,8 +71,18 @@ a:link{
       height: 270px;
 }
 #description{
-      padding: 15px;
+      display: block;
+      margin-left: 30px;
+      padding: 5px;
       
-
-
+}
+#main-title{
+      color: #FDD116;     
+}
+blockquote{
+      display: block;
+      margin-top: 4em;
+      margin-bottom: 10px;
+      margin-left: 32px;
+      margin-right: 40px;
 }
